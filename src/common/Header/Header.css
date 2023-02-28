@@ -1,0 +1,42 @@
+.navbar {
+    width: 100%;
+    background-image: linear-gradient(to right,#1c473a 99%, #1C6758);
+    overflow: auto;
+    position: fixed;
+  }
+
+  .Name{
+    float: left;
+    padding: 12px;
+    background-color:#1c473a;
+    color: white;
+    font-style: italic;
+    font-weight: 3px;
+    font-size: 18px;
+  }
+  
+  .navbar a {
+    float: right;
+    padding: 12px;
+    background-color:#1C6758;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    height: 24px;
+  }
+  
+  .navbar a:hover {
+    background-color: #1c473a;
+    color: white;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }

@@ -1,0 +1,82 @@
+body{
+    background-image: linear-gradient(to right,white, #aac2be 80%);
+}
+
+.Help{
+    background-color:#EEEEEE;
+    float: right;
+    border-radius: 8px;
+    width: 68%;
+    margin-right: 11%;
+    height: 568px;
+    box-sizing: border-box;
+    font-family: "Sans-serif", "Verdana", monospace;
+    color:#1C6758;
+    text-align: left;
+    border: #1c473a;
+    padding: 1%;
+    padding-left:30%;
+    margin-left:21%;
+    margin-top: 50px;
+}
+.Help>hr{
+    width: 60%;
+    margin-left: -16%;
+}
+
+.inquirybox{
+    margin-left:-25%;
+    width: 80%;
+    align-items: center;
+    height: 300px;
+    border-color:#a6a6a6;
+  }
+  
+  .inquirybox:hover{
+    width: 80%;
+    align-items: center;
+    height: 300px;
+    border-color:#1c473a;
+    background-color:#ededed;
+  }
+
+  .btns{
+    display: inline;
+  }
+
+  
+.inlinebtn{
+    background-color:#1C6758;
+      color:white;
+      padding: 16px 20px;
+      margin-left: 1%;
+      border: none;
+      cursor: pointer;
+      width: 150px;
+      height: 50px;
+      opacity: 0.9;
+      font-weight: bold;
+      font-size: large;
+      border-radius: 10px; 
+      display: inline;
+  }
+  
+  .inlinebtn:hover{
+    background-color:#1c473a;
+      color:white;
+      padding: 16px 20px;
+      margin-left: 1%;
+      border: none;
+      cursor: pointer;
+      width: 150px;
+      height: 50px;
+      opacity: 0.9;
+      font-weight: bold;
+      font-size: large;
+      border-radius: 10px; 
+      display: inline;
+  }
+
+.Logo{
+  width: 150px;
+}

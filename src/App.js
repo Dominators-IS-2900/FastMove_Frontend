@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Homepage from './Screens/Homepage';
+import BusRegPage from './Screens/BusRegistration';
+import AccBalance from './Screens/AccBalancePage';
+import HelpPage from './Screens/HelpPage';
+import Loginpage from './Screens/Loginpage';
+import RegScreen from './Screens/OwnerRegistration';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <RegScreen/>
+      </div>
   );
 }
 
